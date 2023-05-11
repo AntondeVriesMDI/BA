@@ -82,7 +82,7 @@
 <!-- svelte-ignore a11y-media-has-caption -->
 {#if video}
   <video
-    src={"Videos/" + video + ".MP4"}
+    src={"Videos/" + video + ".webm"}
     on:mousedown={handleMousedown}
     bind:paused
     bind:currentTime
